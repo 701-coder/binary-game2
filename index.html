@@ -1,0 +1,21 @@
+<html>
+<head>
+    <link rel='stylesheet' href='style.css'>
+    <title>二進位遊戲</title>
+</head>
+<body>
+    <h1>二進位遊戲</h1>
+    <select class='mode' onclick='modeChange()'>
+        <option value='0'>十進位->二進位</option>
+        <option value='1'>十進位數字->字母</option>
+        <option value='2'>二進位數字->字母</option>
+        <option disabled='true'>選完之後記得點一下螢幕空白處</option>
+    </select>
+    <br><br>
+    <x class='rule'>遊戲規則</x>
+    <div class='game'></div>
+    <div class='timer'></div>
+    <div class='score'></div>
+    <script src='game.js'></script>
+</body>
+</html>

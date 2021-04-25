@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 36px;
+}
+.rule{
+    font-size: 24px;
+    cursor: pointer;
+}
+select{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.game, .timer{
+    font-size: 72px;
+}
+.score{
+    font-size: 36px;
+}
